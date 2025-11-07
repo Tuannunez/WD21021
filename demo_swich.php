@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,5 +26,23 @@
         </div>
         <button type="submit">Tính</button>
     </form>
+ <?php
+    //if(isset($_POST['submit'])){
+    //  $a = $_POST['a'];
+    //  $b = $_POST['b'];
+    //  $op = $_POST['operator'];
+    //  $kq = '';
+
+    // switch ($op) {
+    //   case '+': $kq = $a + $b; break;
+    //   case '-': $kq = $a - $b; break;
+    //   case '*': $kq = $a * $b; break;
+    //   case '/': $kq = ($b != 0) ? $a / $b : "Không thể chia cho 0!"; break;
+    //   default:  $kq = "Phép tính không hợp lệ!";
+    // }
+
+    // echo "<h3>Kết quả: $a $op $b = <b>$kq</b></h3>";
+    // }
+ ?>
 </body>
 </html>
